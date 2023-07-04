@@ -1,0 +1,27 @@
+.footer {
+  box-sizing: border-box;
+  padding: 0 40px;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+}
+.footer__date {
+  display: flex;
+  font-size: 16px;
+}
+.footer__icons {
+  width: 300px;
+  display: flex;
+  display: block;
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+}

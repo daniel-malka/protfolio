@@ -1,0 +1,33 @@
+.header {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.header__nav {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  box-sizing: border-box;
+  border-bottom: 1px solid white;
+}
+ul {
+  list-style-type: none;
+}
+.header__navigation {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+  color: white;
+  display: flex;
+  gap: 15px;
+}
